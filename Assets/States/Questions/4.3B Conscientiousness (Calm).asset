@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8599b73d25aee7647959fb039fdc06b7, type: 3}
+  m_Name: 4.3B Conscientiousness (Calm)
+  m_EditorClassIdentifier: 
+  storyText: 'After taking a deep calming breath you notice something curious in
+    the logs. It looks like the attacker is somehow trying to get your attention,
+    while at the same time leaving no trace for the client to discover.
+
+
+    What
+    do you do?
+
+    A. Pay close attention to the details in the logs but follow
+    your protocals
+
+    B. Try something spontaneous - send a message of curiousity
+    back to the hacker.'
+  replaceIndex: 3
+  keyText: '{conscientiousness}'
+  resultPhrases:
+  - (efficient/organized)
+  - (easy-going/careless)
+  nextStates:
+  - {fileID: 11400000, guid: f2ee57e9462ee894c943d6e46d516ac0, type: 2}
+  - {fileID: 11400000, guid: 9cd825f0870ea7a4da09e907adf5c36b, type: 2}

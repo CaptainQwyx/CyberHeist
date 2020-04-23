@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8599b73d25aee7647959fb039fdc06b7, type: 3}
+  m_Name: 2.1A Openness (Team)
+  m_EditorClassIdentifier: 
+  storyText: 'You get the team together in the conference room.
+
+    Alec projects
+    the state of CANoE''s servers onto the large display on the far wall.
+
+    He
+    wants to try a new radical technique he''s developed to trace the attack back
+    to the source using frequency modulation inside the IP packet headers.
+
+    Sophie
+    advocates a more methodical approach to follow the established checklist and
+    first close the TCP ports being used by the attacker.
+
+
+    What do you do?
+
+    A:
+    Bold but risky - give Alec the go-ahead.
+
+    B: Tried and true - have Sophie
+    run the checklist.'
+  replaceIndex: 1
+  keyText: '{openness}'
+  resultPhrases:
+  - (inventive/curious)
+  - (consistent/cautious)
+  nextStates:
+  - {fileID: 11400000, guid: a3e178acbea214d4c84197c679646126, type: 2}
+  - {fileID: 11400000, guid: 0106b93290659304f95f562b9be67f93, type: 2}

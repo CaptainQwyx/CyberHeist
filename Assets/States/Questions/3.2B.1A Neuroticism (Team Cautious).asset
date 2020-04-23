@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8599b73d25aee7647959fb039fdc06b7, type: 3}
+  m_Name: 3.2B.1A Neuroticism (Team Cautious)
+  m_EditorClassIdentifier: 
+  storyText: 'Unfortunately the checklist doesn''t produce any results. Sophie can''t
+    close the ports fast enough beore more get exploited and the team is getting
+    frustrated.
+
+
+    How do you handle the situation?
+
+    A. Don''t deal with stress
+    well - go back to your office let off some steam.
+
+    B. Ok, deep breath - stay
+    calm and work through the problem.'
+  replaceIndex: 2
+  keyText: '{neuroticism}'
+  resultPhrases:
+  - (sensitive/nervous)
+  - (secure/confident)
+  nextStates:
+  - {fileID: 11400000, guid: a957b0b562d99c146b1994c94cbaf2f2, type: 2}
+  - {fileID: 11400000, guid: 92a22d8c67ea7ff49a28c8391078d8ff, type: 2}

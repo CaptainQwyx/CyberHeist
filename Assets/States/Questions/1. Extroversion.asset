@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8599b73d25aee7647959fb039fdc06b7, type: 3}
+  m_Name: 1. Extroversion
+  m_EditorClassIdentifier: 
+  storyText: 'Another typical day at On-Call Experts & Ninjas.
+
+    You spent the
+    morning reviewing reports and enhancing your various monitoring logscripts.
+
+    You
+    finish off your protein shake for a brief but filling lunch break when the alarms
+    start.
+
+    Your most recent customer, the Cyber Angel Network of Europe, is
+    being hacked!
+
+
+    What do you do?
+
+    A: Call in the team - all hands on deck
+    to impress the new client.
+
+    B: You got this - boot up your terminal into
+    the client''s system and solve this solo-style.'
+  replaceIndex: 0
+  keyText: '{extroversion}'
+  resultPhrases:
+  - (outgoing/energetic)
+  - (solitary/reserved)
+  nextStates:
+  - {fileID: 11400000, guid: a334cd29fade4ef4aa36066761e00c2a, type: 2}
+  - {fileID: 11400000, guid: 272aefeee1df7804bb8a761594800077, type: 2}

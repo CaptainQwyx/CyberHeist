@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8599b73d25aee7647959fb039fdc06b7, type: 3}
+  m_Name: 6.5A End Screen (Sympathetic)
+  m_EditorClassIdentifier: 
+  storyText: 'You finish the afternoon digging deeper into your client''s files and
+    sharing your discoveries with the hacker.
+
+
+    You realize through this experience
+    that you''ve also learned a little more about yourself along the way:
+
+
+    Openness
+    to experience: you tend towards {openness}
+
+    Conscientiousness: you tend towards
+    {conscientiousness}
+
+    Extroversion: you tend towards {extroversion}
+
+    Agreeableness:
+    you tend towards {agreeableness}
+
+    Neuroticism: you tend towards {neuroticism}
+
+
+    For
+    more information: https://en.wikipedia.org/wiki/Big_Five_personality_traits
+
+
+    Play
+    again?
+
+    A: Yes - let me try this again!
+
+    B: No - get me outta here!'
+  replaceIndex: -1
+  keyText: 
+  resultPhrases: []
+  nextStates:
+  - {fileID: 11400000, guid: 07571fd950d3d26499375a73fc49ee6a, type: 2}
+  - {fileID: 11400000, guid: eb21ba0d825e1aa42a09408f26bc7a90, type: 2}

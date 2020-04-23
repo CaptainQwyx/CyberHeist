@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8599b73d25aee7647959fb039fdc06b7, type: 3}
+  m_Name: 0. Introduction
+  m_EditorClassIdentifier: 
+  storyText: 'Welcome to Cyber Heist!
+
+
+    Can you defend your client against the
+    hacker''s attacks? Or is there something more going on?
+
+
+    At each stage you''ll
+    be presented with a choice - press "A" or "B" to make your selection.
+
+
+    At
+    any point in time press "Q" to quit.
+
+
+    Press "A" to continue...'
+  nextStates:
+  - {fileID: 11400000, guid: 1a30fe88dd7a96d4e89608e45a3f2058, type: 2}
